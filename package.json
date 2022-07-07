@@ -1,0 +1,13 @@
+{
+  "name": "blibli-http",
+  "version": "0.0.0",
+  "description": "Little-big microservice framework and bli bli and stuff",
+  "engines": {
+    "node": ">= 16"
+  },
+  "main": "dist/index.js",
+  "repository": "git@github.com:romain-bourjot/blibli-http.git",
+  "author": "Romain Bourjot <romain.bourjot@gmail.com>",
+  "license": "CECILL-B",
+  "private": false
+}
