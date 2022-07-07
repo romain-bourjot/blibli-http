@@ -9,5 +9,17 @@
   "repository": "git@github.com:romain-bourjot/blibli-http.git",
   "author": "Romain Bourjot <romain.bourjot@gmail.com>",
   "license": "CECILL-B",
-  "private": false
+  "private": false,
+  "scripts": {
+    "commit": "cz"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
