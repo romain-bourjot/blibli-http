@@ -11,11 +11,17 @@
   "license": "CECILL-B",
   "private": false,
   "scripts": {
-    "commit": "cz"
+    "build": "tsc",
+    "clean": "rimraf ./dist",
+    "commit": "cz",
+    "start": "node ./dist/index.js"
   },
   "devDependencies": {
+    "@types/node": "16",
     "commitizen": "^4.2.4",
-    "cz-conventional-changelog": "3.3.0"
+    "cz-conventional-changelog": "3.3.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.4"
   },
   "config": {
     "commitizen": {
